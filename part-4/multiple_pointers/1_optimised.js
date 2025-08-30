@@ -1,4 +1,4 @@
-// o(n) = n
+// o(n) = n, space o(1)
 function sumZero (arr) {
    let left = 0;
    let  right = arr.length - 1

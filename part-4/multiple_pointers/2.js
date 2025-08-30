@@ -1,3 +1,5 @@
+//time o(n), space o(n)
+
 function countUnique (arr) {
   let countObj = {};
   let uniqueArr = []

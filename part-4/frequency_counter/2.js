@@ -1,6 +1,9 @@
 //Given two arrays, write a function to check if the second array contains the squares of all elements in the first array, with matching frequency.
 
 //most optimal solution for this can be found only in 3_optimise.js
+
+// time o(n**2), space o(1)
+
 function same (arr1, arr2) {
     const length1 = arr1.length
     const length2 = arr2.length

@@ -4,6 +4,9 @@
 
 // ask these questions like -
 // is everything is in lower case or is there any spaces there in the string.
+
+// time o(n), space o(n)
+
 function validAnagram (str1, str2) {
     const length1 = str1.length
     const length2 = str2.length

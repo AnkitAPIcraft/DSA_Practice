@@ -1,3 +1,5 @@
+//time o(n), space o(1)
+
 function countUnique(arr) {
   if (arr.length == 0) return 0;
   let i = 0;

@@ -1,3 +1,5 @@
+// time o(n), space o(n) and if we consider freqObj object will only have alphabates that space comlexict will be no(1)
+
 function validAnagram(str1, str2) {
   const length1 = str1.length;
   const length2 = str2.length;

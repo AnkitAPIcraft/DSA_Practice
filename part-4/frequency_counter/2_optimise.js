@@ -2,6 +2,8 @@
 
 //most optimal solution for this can be found only in 3_optimise.js
 
+// time o(n), space o(n)
+
 function same (arr1, arr2) {
     const length1 = arr1.length
     const length2 = arr2.length
