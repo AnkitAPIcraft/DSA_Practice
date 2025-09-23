@@ -12,7 +12,6 @@ function maxSubarraySum(arr, n) {
     null;
   }
 
-  const number = n;
   let hightestTotal = 0;
   let total = 0;
 
