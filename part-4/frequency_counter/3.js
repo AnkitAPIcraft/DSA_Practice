@@ -18,10 +18,10 @@ function validAnagram (str1, str2) {
     let freqObj1 = {}
 
     for (const ele of str1) {
-        freqObj1[ele] = ++freqObj1[ele] || 1;        
+        freqObj1[ele] = (freqObj1[ele] || 0) +1;        
     }
     for (const ele of str2) {
-        freqObj2[ele] = ++freqObj2[ele] || 1;        
+        freqObj2[ele] = (freqObj2[ele] || 0) +1;          
     }
     console.log(freqObj1,"aa", freqObj2);
     for (const key in freqObj1) {
@@ -36,7 +36,7 @@ function validAnagram (str1, str2) {
 
 }
 
-const str1 = ' ';
-const str2 = ' ';
+const str1 = 'aanaaa';
+const str2 = 'naaaa ';
 
 console.log(validAnagram(str1, str2));
